@@ -32,7 +32,6 @@ RUN mkdir -p /opt/sonatype/nexus \
 
 
 VOLUME ${SONATYPE_WORK}
-
 EXPOSE 8081
 WORKDIR /opt/sonatype/nexus
 USER root
