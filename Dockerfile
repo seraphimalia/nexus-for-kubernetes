@@ -1,8 +1,7 @@
 FROM       centos:centos7
-MAINTAINER Peter Zainzinger <peterzainzinger@gmail.com> 
 
 ENV SONATYPE_WORK /sonatype-work
-ENV NEXUS_VERSION 2.13.0-01
+ENV NEXUS_VERSION 3.0.0-b2015110601
 
 ENV JAVA_HOME /opt/java
 ENV JAVA_VERSION_MAJOR 8
